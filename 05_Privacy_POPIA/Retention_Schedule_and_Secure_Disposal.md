@@ -4,81 +4,17 @@
 
 > Retention schedule with legal/business basis (unverified bases flagged), a restriction-of-processing scenario and a secure disposal procedure.
 
-*Write the actual Data Retention & Disposal Standard — the real artifact, not a description of one*.
-
 ## Retention Schedule
-|**Record Category           | Retention Period      | Legal/Business Basis                       | Disposal Method**
-__________________________________________________________________________________________________________________________________
-|**1. Financial & tax**      | **5 years**           | **Verified legal basis:** SARS generally   | **Digital:** secure deletion/
-|**records** — invoices,     |                       | requires relevant tax records to be        | cryptographic erasure where 
-| receipts, accounting       |                       | retained for **5 years**. Longer           | appropriate.
-| records, tax-supporting    |                       | retention may apply where an audit,        | **Physical:** cross-cut
-| documents                  |                       | investigation, objection or appeal is      | shredding. Document 
-|                            |                       | still ongoing.                             | authorised destruction.
-__________________________________________________________________________________________________________________________________
-|**2. HR / employee records**| **3 years** for       | **Verified:** BCEA s31 requires specified  | Secure deletion for electronic
-|— employment records,       |records covered by BCEA| employment records to be kept for **3**    | records and secure shredding
-| remuneration, working hours|s31; **5 years for     | **years from the date of the last entry**  | for physical records once the 
-| and related employee       |applicable SARS        | Applicable SARS employer/payroll tax       | applicable retention period 
-| documentation              |employer/payroll tax   | records are subject to a **5-year**        | has expired and no legal hold
-|                            |records. **Where two** | retention requirement. **UIF-specific**    | or other lawful retention
-|                            |**periods apply to**   | **retention period requires**              | requirement applies.
-|                            |**the same record,**   | **verification before being stated as a**  |
-|                            |**the longer period**  | **number.**                                |
-|                            |**governs.** **UIF-**  |                                            |
-|                            |**specific retention** |                                            |
-|                            |**period needs**       |                                            |
-|                            |**verification.**      |                                            |
-__________________________________________________________________________________________________________________________________
-|**3. Customer loyalty-**    |**24 months** after the| **No specific statutory period verified.** | Secure digital deletion or
-|**programme data** — names, |customer's last loyalty| Proposed business period under s14(1)(b),  | appropriate de-identification.
-| email addresses, loyalty   |activity, unless an    | justified by the purpose of administering  | Remove unnecessary copies and
-| points, account information|active account or other| the loyalty programme and avoiding         | address applicable backups/
-|                            |documented purpose     | unnecessary retention.                     | replicas through the deletion 
-|                            |justifies continued    |                                            | process. 
-|                            |retention. **Pending** |                                            |    
-|                            |**Owner approval.**    |                                            |
-__________________________________________________________________________________________________________________________________
-|**4. POS transaction and**  |**24 months for**      | No specific statutory period verified for  | Secure digital deletion after
-|**operational records** -   |**operational records**| ordinary operational POS records. Proposed | the applicable period.
-|sales transactions,         |forming part of        | business period under **POPIA s14(1)(b)**  | Preserve records subject
-|transaction history,        |financial/tax          | based on operational reporting,            | to an authorised legal
-|receipts, reconciliation    |documentation follow   | reconciliation,customer queries and        | hold or ongoing investigation.
-|reporting data. **Excludes**|the applicable         | historical transaction support.            |
-|**all access,**             |**5-year requirement** |                                            |   
-|**authentication and**      |**Pending Owner**      |                                            |
-|**security audit logs.**    |**approval for the**   |                                            |
-|                            |**operational period** |                                            |
-__________________________________________________________________________________________________________________________________
-|**5. CCTV footage** —       | **30 days, then**     |**No specific statutory period verified.**  | Automated secure overwriting/
-| recordings from areas such |**automatic overwrite**| Proposed business period under s14(1)(b),  | deletion. If footage is
-| as entrances, tills and    | unless an incident/   | based on the cafe's security purpose and   | required for an incident or
-| customer areas             | legal hold applies.   | the need to investigate incidents reported | investigation, isolate and
-|                            | **Pending Owner**     | within a reasonable period.                | preserve the relevant
-|                            | **approval**          |                                            | recording with restricted
-|                            |                       |                                            | access and an audit trail. 
-__________________________________________________________________________________________________________________________________
-|**6. Customer/business**    |**24 months after**    | **No universal statutory period verified** | Secure deletion according to 
-|**email records** — emails  |**closure of the**     | **for ordinary operational email.**        | the email-retention policy. 
-| containing customer or     |**business/customer**  |Proposed business period under **s14(1)(b)**| Apply legal holds where
-| business information       |**matter,** unless the | based on operational reference and dispute | necessary.
-|                            |email forms part of a  | resolution needs.                          |
-|                            |record subject to a    |                                            |
-|                            |longer legal/business  |                                            |
-|                            |retention requirement. |                                            |
-|                            |**Pending Owner**      |                                            |
-|                            |**approval**           |                                            |
-__________________________________________________________________________________________________________________________________
-|**7. POS access and**       |**12 months**, unless  | **No specific statutory period verified**  | Secure deletion after the
-|security audit logs- user   |an incident,           | **for POS access/security logs.            | approved logging period;
-|login/logout events,        |investigation or       | Proposed business period under **POPIA**   | preserve relevant logs for 
-|authentication attempts,    |compliance requirement | **s14(1)(b),** based on security           | investigations, incidents 
-|privilege changes, access   |requires longer        | monitoring, incident investigation and     | or legal proceedings.
-|events and audit-trail      |retention. **Pending** | accountability requirements.               |     
-|records. Google Drive/      |**Owner approval.**    |                                            |   
-|vendor access and other     |                       |                                            |
-|audit logs. **Excludes**    |                       |                                            |
-|**transaction/sales**.      |                       |                                            |
+
+| Record Category | Retention Period | Legal/Business Basis | Disposal Method |
+|---|---|---|---|
+| **1. Financial & tax records** — invoices, receipts, accounting records, tax-supporting documents | **5 years** | **Verified legal basis:** SARS generally requires relevant tax records to be retained for **5 years**. Longer retention may apply where an audit, investigation, objection or appeal is still ongoing. | **Digital:** secure deletion/ cryptographic erasure where appropriate. **Physical:** cross-cut shredding. Document authorised destruction. |
+| **2. HR / employee records** — employment records, remuneration, working hours and related employee documentation | **3 years** for records covered by BCEA s31; **5 years** for applicable SARS employer/payroll tax records. **Where two periods apply to the same record, the longer period governs. UIF-specific retention period needs verification.** | **Verified:** BCEA s31 requires specified employment records to be kept for **3 years from the date of the last entry**. Applicable SARS employer/payroll tax records are subject to a **5-year** retention requirement. **UIF-specific retention period requires verification before being stated as a number.** | Secure deletion for electronic records and secure shredding for physical records once the applicable retention period has expired and no legal hold or other lawful retention requirement applies. |
+| **3. Customer loyalty-programme data** — names, email addresses, loyalty points, account information | **24 months** after the customer's last loyalty activity, unless an active account or other documented purpose justifies continued retention. **Pending Owner approval.** | **No specific statutory period verified.** Proposed business period under s14(1)(b), justified by the purpose of administering the loyalty programme and avoiding unnecessary retention. | Secure digital deletion or appropriate de-identification. Remove unnecessary copies and address applicable backups/ replicas through the deletion process. |
+| **4. POS transaction and operational records** - sales transactions, transaction history, receipts, reconciliation reporting data. **Excludes all access, authentication and security audit logs.** | **24 months for operational records** forming part of financial/tax documentation follow the applicable **5-year requirement Pending Owner approval for the operational period** | No specific statutory period verified for ordinary operational POS records. Proposed business period under **POPIA s14(1)(b)** based on operational reporting, reconciliation,customer queries and historical transaction support. | Secure digital deletion after the applicable period. Preserve records subject to an authorised legal hold or ongoing investigation. |
+| **5. CCTV footage** — recordings from areas such as entrances, tills and customer areas | **30 days, then automatic overwrite** unless an incident/ legal hold applies. **Pending Owner approval** | **No specific statutory period verified.** Proposed business period under s14(1)(b), based on the cafe's security purpose and the need to investigate incidents reported within a reasonable period. | Automated secure overwriting/ deletion. If footage is required for an incident or investigation, isolate and preserve the relevant recording with restricted access and an audit trail. |
+| **6. Customer/business email records** — emails containing customer or business information | **24 months after closure of the business/customer matter,** unless the email forms part of a record subject to a longer legal/business retention requirement. **Pending Owner approval** | **No universal statutory period verified for ordinary operational email.** Proposed business period under **s14(1)(b)** based on operational reference and dispute resolution needs. | Secure deletion according to the email-retention policy. Apply legal holds where necessary. |
+| **7. POS access and security audit logs** — user login/logout events, authentication attempts, privilege changes, access events and audit-trail records. Google Drive/ vendor access and other audit logs. **Excludes transaction/sales**. | **12 months**, unless an incident, investigation or compliance requirement requires longer retention. **Pending Owner approval.** | **No specific statutory period verified for POS access/security logs.** Proposed business period under **POPIA s14(1)(b),** based on security monitoring, incident investigation and accountability requirements. | Secure deletion after the approved logging period; preserve relevant logs for investigations, incidents or legal proceedings. |
 
 ## A Restriction Scenario
 The cafe should restrict the processing of the disputed loyalty transaction while the customer's claim is being investigated. The specific record should be retained, but it should be flagged or placed under a processing restriction so that it is not altered, relied upon for further loyalty processing, or used for unrelated purposes until the cafe verifies its accuracy and determines how the dispute should be resolved.

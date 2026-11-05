@@ -5,10 +5,10 @@
 > A full POPIA PIIA concluding 'Do Not Proceed as Designed' on necessity and proportionality grounds.
 
 ## Phases 1 & 2: Scoping and Description
-# Fresh Brew Cafe
-# Personal Information Impact Assessment (PIIA)
-# Facial-Recognition CCTV / Loyalty Programme Proposal
-_______________________________________________________
+### Fresh Brew Cafe
+### Personal Information Impact Assessment (PIIA)
+### Facial-Recognition CCTV / Loyalty Programme Proposal
+---
 
 **Document status:** Draft — Pre-implementation
 **Assessment stage:** Phases 1 & 2 — Scoping and Description
@@ -18,9 +18,9 @@ _______________________________________________________
 **Date:** 1 September 2026
 **Decision status:** **Not approved for implementation pending completion of the full PIIA**
 
-# Phase 1 — Initiation and Scoping
+### Phase 1 — Initiation and Scoping
 
-# 1.1 Initiative being assessed
+### 1.1 Initiative being assessed
 
 Fresh Brew Cafe proposes introducing a **facial-recognition capability integrated with CCTV and its customer loyalty programme**.
 
@@ -28,7 +28,7 @@ The intended business purpose is to allow customers who **voluntarily enrol** to
 
 The proposal potentially involves cameras capturing the faces of **all persons within the camera's field of view**, including customers who have **not enrolled** in the loyalty programme. This distinction is material to the privacy assessment.
 
-# 1.2 Purpose of this PIIA
+### 1.2 Purpose of this PIIA
 
 This PIIA assesses whether the proposed processing:
 
@@ -38,57 +38,31 @@ This PIIA assesses whether the proposed processing:
 * requires additional technical, organisational, contractual, or privacy controls; and
 * should be approved, modified, or rejected before deployment.
 
-# 1.3 PIIA trigger assessment
+### 1.3 PIIA trigger assessment
 
-|**Trigger                         | Status              | Assessment**
-__________________________________________________________________________________________________________________________________
-| **Biometric information**        | **Confirmed**       | Facial-recognition templates used to identify individuals constitute
-|                                  |                     | biometric information and therefore involve **special personal**
-|                                  |                     | **information** under POPIA.
-__________________________________________________________________________________________________________________________________
-| **Systematic monitoring**        | **Confirmed**       | CCTV cameras may repeatedly capture individuals entering or moving 
-|                                  |                     | through monitored cafe areas. 
-__________________________________________________________________________________________________________________________________
-                                                                       
-| **Automated identification**     | **Confirmed**       | Facial characteristics would be compared automatically against 
-|                                  |                     | enrolled loyalty profiles. 
-__________________________________________________________________________________________________________________________________
-| **New / intrusive technology**   | **Confirmed**       | Facial recognition is materially more intrusive than a conventional 
-|                                  |                     | loyalty card, QR code, email address, or phone-number lookup.
-__________________________________________________________________________________________________________________________________
-| **Linking of datasets**          | **Confirmed**       | A facial identity may be linked with loyalty membership, visits, 
-|                                  |                     | transactions, points, and purchase history.
-__________________________________________________________________________________________________________________________________
-| **Potential profiling**          | **Possible**        | Visit frequency and purchase history could create behavioural profiles
-|                                  |                     | if the system permits such analysis. This is **not approved as part** 
-|                                  |                     | **of the stated purpose**.     
-__________________________________________________________________________________________________________________________________
-| **Processing of non-members**    | **Confirmed risk**  | CCTV may capture people who have never enrolled. Their images must not
-|                                  |                     | become permanent biometric profiles merely because they entered the 
-|                                  |                     | cafe.                        
-__________________________________________________________________________________________________________________________________
-| **Children's information**       | **Possible / not**  | Children may enter the cafe. Enrolment rules and treatment of minors
-|                                  | **yet established** | must be defined before implementation. 
-__________________________________________________________________________________________________________________________________
-| **Large-scale processing**       | **Not established** | Fresh Brew Cafe is a small business and no evidence currently 
-|                                  |                     | establishes large-scale processing. 
-__________________________________________________________________________________________________________________________________
-| **Cross-border processing**      | **To be confirmed** | Depends on the location of any facial-recognition vendor's servers, 
-|                                  |                     | support personnel, backups, or subprocessors. 
-__________________________________________________________________________________________________________________________________
-| **Vendor / Operator processing** | **Likely**          | If an external provider hosts, analyses, or stores facial data on
-|                                  |                     | behalf of the cafe, it would likely act as an Operator, subject to the
-|                                  |                     | final contractual arrangement. 
+| Trigger | Status | Assessment |
+|---|---|---|
+| **Biometric information** | **Confirmed** | Facial-recognition templates used to identify individuals constitute biometric information and therefore involve **special personal information** under POPIA. |
+| **Systematic monitoring** | **Confirmed** | CCTV cameras may repeatedly capture individuals entering or moving through monitored cafe areas. |
+| **Automated identification** | **Confirmed** | Facial characteristics would be compared automatically against enrolled loyalty profiles. |
+| **New / intrusive technology** | **Confirmed** | Facial recognition is materially more intrusive than a conventional loyalty card, QR code, email address, or phone-number lookup. |
+| **Linking of datasets** | **Confirmed** | A facial identity may be linked with loyalty membership, visits, transactions, points, and purchase history. |
+| **Potential profiling** | **Possible** | Visit frequency and purchase history could create behavioural profiles if the system permits such analysis. This is **not approved as part of the stated purpose**. |
+| **Processing of non-members** | **Confirmed risk** | CCTV may capture people who have never enrolled. Their images must not become permanent biometric profiles merely because they entered the cafe. |
+| **Children's information** | **Possible / not yet established** | Children may enter the cafe. Enrolment rules and treatment of minors must be defined before implementation. |
+| **Large-scale processing** | **Not established** | Fresh Brew Cafe is a small business and no evidence currently establishes large-scale processing. |
+| **Cross-border processing** | **To be confirmed** | Depends on the location of any facial-recognition vendor's servers, support personnel, backups, or subprocessors. |
+| **Vendor / Operator processing** | **Likely** | If an external provider hosts, analyses, or stores facial data on behalf of the cafe, it would likely act as an Operator, subject to the final contractual arrangement. |
 
-# Phase 1 conclusion
+### Phase 1 conclusion
 
 The proposal triggers a **high level of privacy concern** because it combines biometric information, CCTV monitoring, automated identification, dataset linkage, and possible third-party processing.
 
 A full PIIA is therefore required before implementation.
 
-# Phase 2 — Description of the Processing
+### Phase 2 — Description of the Processing
 
-# 2.1 Data subjects
+### 2.1 Data subjects
 
 The proposed processing may affect:
 
@@ -101,9 +75,9 @@ The proposed processing may affect:
 
 Only voluntarily enrolled customers are intended to receive facial-recognition loyalty functionality.
 
-# 2.2 Personal information to be processed
+### 2.2 Personal information to be processed
 
-# A. Enrolment information
+### A. Enrolment information
 
 For a customer who chooses facial recognition:
 
@@ -117,7 +91,7 @@ For a customer who chooses facial recognition:
 
 The enrolment photograph should **not be retained merely because it was used to generate the template** unless a specific operational need is demonstrated and approved.
 
-# B. CCTV / recognition information
+### B. CCTV / recognition information
 
 Cameras may process:
 
@@ -131,7 +105,7 @@ Cameras may process:
 
 For individuals who are **not enrolled**, any temporary biometric representation created solely to determine whether a match exists must be **discarded immediately after the comparison** and must not be added to a persistent facial database.
 
-# C. Loyalty information linked after a successful match
+### C. Loyalty information linked after a successful match
 
 Where an enrolled customer is recognised, the system may retrieve:
 
@@ -144,7 +118,7 @@ Where an enrolled customer is recognised, the system may retrieve:
 
 Facial recognition must **not automatically authorise payment or financial transactions** merely because a facial match occurs.
 
-# D. Administrative and audit data
+### D. Administrative and audit data
 
 The system may also generate:
 
@@ -156,7 +130,7 @@ The system may also generate:
 * security-event logs;
 * vendor support logs where applicable.
 
-# 2.3 Processing flow
+### 2.3 Processing flow
 
 The proposed processing is:
 
@@ -214,42 +188,34 @@ The system records only the information necessary for security, audit, and loyal
 
 A failed or non-member match must **not result in creation of a new biometric profile**.
 
-# 2.4 Purpose of processing
+### 2.4 Purpose of processing
 
 The approved proposed purpose is:
 
 > **To identify customers who have voluntarily enrolled in Fresh Brew Cafe's facial-recognition loyalty programme so that their loyalty account can be retrieved and loyalty benefits applied conveniently at the point of service.**
 
-# 2.5 Access to personal information
+### 2.5 Access to personal information
 
 Access must follow least privilege.
 
-|**Role                         | Permitted Access**
-__________________________________________________________________________________________________________________________________
-| **Cashier / Barista**         | Loyalty match confirmation, loyalty identifier, points/rewards necessary to serve the customer
-__________________________________________________________________________________________________________________________________
-| **Cashier / Barista**         | **No access to biometric templates or bulk CCTV exports**
-__________________________________________________________________________________________________________________________________
-| **Shift Manager**             | Limited account troubleshooting and approved operational records 
-__________________________________________________________________________________________________________________________________
-| **Owner**                     | Authorised administrative oversight 
-__________________________________________________________________________________________________________________________________
-| **Information Officer**       | Privacy compliance, complaints, data-subject requests, PIIA oversight and audit evidence 
-__________________________________________________________________________________________________________________________________
-| **IT Contractor**             | Technical access only where required for maintenance or incident response; access must be 
-|                               | authorised and logged 
-__________________________________________________________________________________________________________________________________
-| **Facial-recognition vendor** | Only the data technically necessary to provide the contracted service 
-__________________________________________________________________________________________________________________________________
-| **Other customers/public**    | No access 
+| Role | Permitted Access |
+|---|---|
+| **Cashier / Barista** | Loyalty match confirmation, loyalty identifier, points/rewards necessary to serve the customer |
+| **Cashier / Barista** | **No access to biometric templates or bulk CCTV exports** |
+| **Shift Manager** | Limited account troubleshooting and approved operational records |
+| **Owner** | Authorised administrative oversight |
+| **Information Officer** | Privacy compliance, complaints, data-subject requests, PIIA oversight and audit evidence |
+| **IT Contractor** | Technical access only where required for maintenance or incident response; access must be authorised and logged |
+| **Facial-recognition vendor** | Only the data technically necessary to provide the contracted service |
+| **Other customers/public** | No access |
 
 **Bulk export of biometric templates must be technically restricted.**
 
 Administrative access should require **strong authentication and MFA**.
 
-# 2.6 Vendor / Operator processing
+### 2.6 Vendor / Operator processing
 
-# Current status
+### Current status
 
 **Vendor: Not yet selected / contractual terms not yet reviewed.**
 
@@ -271,7 +237,7 @@ Before approval, Fresh Brew Cafe must establish:
 * whether the vendor uses customer data for analytics or AI/model training;
 * whether the vendor shares information with other entities.
 
-# POPIA relationship
+### POPIA relationship
 
 Where a vendor processes the information **solely on Fresh Brew Cafe's behalf and under its instructions**:
 
@@ -282,7 +248,7 @@ A written Operator agreement must therefore address confidentiality and appropri
 
 If the vendor intends to determine its **own independent purposes** for the facial information, that requires separate legal analysis and cannot simply be treated as ordinary Operator processing.
 
-# 2.7 Storage and location
+### 2.7 Storage and location
 
 **Current status: Not yet established.**
 
@@ -297,7 +263,7 @@ The final architecture must specify whether biometric data is stored:
 
 This is a **PIIA approval blocker** until documented.
 
-# 2.8 Data sharing
+### 2.8 Data sharing
 
 Under the proposed scope, personal information should be shared only with:
 
@@ -308,7 +274,7 @@ Under the proposed scope, personal information should be shared only with:
 
 The cafe does **not approve** sale of biometric information, advertising disclosure, unrelated analytics, or vendor reuse for model training.
 
-# 2.9 Phase 2 finding
+### 2.9 Phase 2 finding
 
 **Assessment:** ⚠️ **Processing defined in principle, but material design gaps remain.**
 
@@ -335,7 +301,7 @@ However, the following remain unresolved:
 9. proof that non-member biometric representations are immediately discarded;
 10. confirmation that vendor data will not be reused for AI/model training.
 
-# Phase 1 & 2 decision
+### Phase 1 & 2 decision
 
 > **Proceed to Phase 3 risk assessment, but do not approve deployment.**
 
@@ -344,56 +310,31 @@ However, the following remain unresolved:
 The most important issue for the next phase will be whether **facial recognition is genuinely necessary and proportionate for something as low-risk as earning café loyalty points**, even if every technical security control works perfectly.
 
 ## Phase 3: Risk, Necessity/Proportionality, and Mitigation
-# Fresh Brew Cafe
-# Personal Information Impact Assessment (PIIA)
-# Facial-Recognition CCTV / Loyalty Programme Proposal
+### Fresh Brew Cafe
+### Personal Information Impact Assessment (PIIA)
+### Facial-Recognition CCTV / Loyalty Programme Proposal
 
 **Phase 3 — Risk, Necessity/Proportionality, and Mitigation**
 
-# 3.1 Risks to Data Subjects
+### 3.1 Risks to Data Subjects
 
 The assessment must focus not only on harm to Fresh Brew Cafe, but on how the processing could affect the **rights, freedoms, dignity, privacy, and interests of the people being scanned or identified**.
 
-|**Risk to Data Subject   | Potential Impact                                            | Likelihood | Impact     | Initial Risk**
-__________________________________________________________________________________________________________________________________
-|**1. Unwanted biometric**| Customers, employees, children, or visitors may be scanned  | High       | High       | **High**
-|**surveillance**         | even though they never joined the loyalty programme.        |            |            |
-|                         | Individuals may feel monitored or lose control over how     |            |            |
-|                         | their face is processed.                                    |            |            |
-__________________________________________________________________________________________________________________________________
-|**2. Misidentification/**| The system may incorrectly identify one person as another,  | Medium     | Medium–High| **High**
-|**false match**          | resulting in incorrect loyalty activity, disclosure of      |            |            |
-|                         | another customer's account information, embarrassment, or   |            |            |
-|                         | unfair treatment.                                           |            |            |
-__________________________________________________________________________________________________________________________________
-|**3. Biometric data**   | If facial templates are stolen or improperly disclosed, the | Medium      | High       | **High** 
-|**compromise**          | individual cannot simply replace their face like a password.|             |            |
-|                        | This creates potentially long-lived privacy and identity    |             |            |
-|                        | risks.                                                      |             |            |
-__________________________________________________________________________________________________________________________________
-|**4. Function creep/**  | Data originally collected for loyalty identification could  | Medium      | High       | **High**
-|**profiling**           | later be used to track visit frequency, purchasing          |             |            |
-|                        | behaviour, employee activity, demographics, marketing, or   |             |            |
-|                        | other purposes the customer did not expect.                 |             |            |
-__________________________________________________________________________________________________________________________________
-|**5. Loss of genuine**  | Customers may feel they must submit to facial recognition   | Medium      | Medium     | **Medium**
-|**choice**              | to receive the same loyalty benefits as other customers,    |             |            |
-|                        | making consent less meaningful.                             |             |            |
-_________________________________________________________________________________________________________________________________
-|**6. Vendor misuse or** | A facial-recognition provider could retain templates, use  | Medium       | High       | **High**
-|**secondary use**       | data to improve its models, combine it with other datasets,|              |            |
-|                        | or transfer it through subprocessors without customers     |              |            |
-|                        | understanding the extent of processing.                    |              |            |
-__________________________________________________________________________________________________________________________________
-|**7. Excessive**        | Facial images, templates, CCTV footage or recognition logs | Medium       | High       | **High** 
-|**retention**           | could be retained longer than necessary, increasing        |              |            |
-|                        | exposure and allowing historical tracking of individuals.  |              |            |
+| Risk to Data Subject | Potential Impact | Likelihood | Impact | Initial Risk |
+|---|---|---|---|---|
+| **1. Unwanted biometric surveillance** | Customers, employees, children, or visitors may be scanned even though they never joined the loyalty programme. Individuals may feel monitored or lose control over how their face is processed. | High | High | **High** |
+| **2. Misidentification/ false match** | The system may incorrectly identify one person as another, resulting in incorrect loyalty activity, disclosure of another customer's account information, embarrassment, or unfair treatment. | Medium | Medium–High | **High** |
+| **3. Biometric data compromise** | If facial templates are stolen or improperly disclosed, the individual cannot simply replace their face like a password. This creates potentially long-lived privacy and identity risks. | Medium | High | **High** |
+| **4. Function creep/ profiling** | Data originally collected for loyalty identification could later be used to track visit frequency, purchasing behaviour, employee activity, demographics, marketing, or other purposes the customer did not expect. | Medium | High | **High** |
+| **5. Loss of genuine choice** | Customers may feel they must submit to facial recognition to receive the same loyalty benefits as other customers, making consent less meaningful. | Medium | Medium | **Medium** |
+| **6. Vendor misuse or secondary use** | A facial-recognition provider could retain templates, use data to improve its models, combine it with other datasets, or transfer it through subprocessors without customers understanding the extent of processing. | Medium | High | **High** |
+| **7. Excessive retention** | Facial images, templates, CCTV footage or recognition logs could be retained longer than necessary, increasing exposure and allowing historical tracking of individuals. | Medium | High | **High** |
 
 These risks are materially different from ordinary cybersecurity risks such as “the cafe may suffer downtime.” They concern **what may happen to the individual because their personal information is being processed**.
 
-# 3.2 Necessity Test
+### 3.2 Necessity Test
 
-# Stated purpose
+### Stated purpose
 
 The stated purpose is:
 
@@ -420,7 +361,7 @@ All of these can identify the loyalty account **without processing immutable bio
 
 POPIA's minimality principle requires personal information to be adequate, relevant and **not excessive** for the processing purpose. 
 
-# Necessity finding
+### Necessity finding
 
 **Result: FAILED**
 
@@ -428,13 +369,13 @@ POPIA's minimality principle requires personal information to be adequate, relev
 
 The loyalty purpose can be accomplished effectively using less intrusive information.
 
-# 3.3 Proportionality Test
+### 3.3 Proportionality Test
 
 The proportionality question is:
 
 > **Even if facial recognition provides some benefit, is the privacy intrusion proportionate to that benefit?**
 
-# Benefits identified
+### Benefits identified
 
 Potential benefits include:
 
@@ -443,7 +384,7 @@ Potential benefits include:
 * potentially smoother customer experience;
 * reduced manual lookup by staff.
 
-# Privacy intrusion
+### Privacy intrusion
 
 To obtain those relatively modest benefits, the system would:
 
@@ -455,7 +396,7 @@ To obtain those relatively modest benefits, the system would:
 * introduce long-lived consequences from biometric compromise;
 * potentially involve a third-party facial-recognition provider.
 
-# Assessment: **Disproportionate for the stated purpose**
+### Assessment: **Disproportionate for the stated purpose**
 
 The business benefit is **convenience in administering loyalty points**, whereas the privacy cost involves highly intrusive biometric identification.
 
@@ -463,11 +404,11 @@ That imbalance is significant.
 
 > **A facial-recognition system might be technically impressive, but the privacy intrusion is difficult to justify merely to make buying coffee and earning loyalty points slightly more convenient.**
 
-# Proportionality finding
+### Proportionality finding
 
 **Result: FAILED in its current form**
 
-# 3.4 Preferred Mitigation — Change the Design
+### 3.4 Preferred Mitigation — Change the Design
 
 The strongest mitigation is not stronger encryption.
 
@@ -481,9 +422,9 @@ Fresh Brew Cafe should instead implement a less intrusive loyalty identification
 
 This approach achieves the same business objective while eliminating most biometric risks entirely.
 
-# Resulting risk reduction
+### Resulting risk reduction
 
-| **Risk                     | Facial recognition | QR / loyalty-card alternative**         |
+| Risk | Facial recognition | QR / loyalty-card alternative |
 | -------------------------- | -----------------: | --------------------------------------: |
 | Biometric compromise       | High               | **Eliminated**                          |
 | Non-member facial scanning | High               | **Eliminated**                          |
@@ -494,18 +435,18 @@ This approach achieves the same business objective while eliminating most biomet
 
 This is an example of **privacy by design**: eliminate unnecessary processing instead of trying to secure unnecessary processing.
 
-# 3.5 If Management Chooses to Proceed Anyway
+### 3.5 If Management Chooses to Proceed Anyway
 
 If the Owner decides there is a compelling business case to continue evaluating facial recognition despite the failed necessity/proportionality assessment, the following should be treated as **minimum preconditions**, not optional enhancements.
 
-# A. Voluntary opt-in only
+### A. Voluntary opt-in only
 
 * Facial recognition must be strictly **opt-in**.
 * No customer should lose loyalty benefits for refusing.
 * A non-biometric alternative must provide equivalent rewards.
 * Withdrawal must be simple.
 
-# B. No persistent processing of non-members
+### B. No persistent processing of non-members
 
 The system must be designed so that faces of non-enrolled persons:
 
@@ -515,7 +456,7 @@ The system must be designed so that faces of non-enrolled persons:
 * are not used for analytics;
 * are discarded immediately after any temporary comparison.
 
-# C. Point-of-service recognition only
+### C. Point-of-service recognition only
 
 Do **not** deploy continuous recognition across the cafe.
 
@@ -523,7 +464,7 @@ Recognition should occur only where necessary, for example at a designated POS r
 
 This materially reduces surveillance.
 
-# D. Data minimisation
+### D. Data minimisation
 
 Store only:
 
@@ -533,7 +474,7 @@ Store only:
 
 Do not retain the original enrolment photograph once template creation is complete unless a documented necessity exists.
 
-# E. Strict purpose limitation
+### E. Strict purpose limitation
 
 Contractually and technically prohibit:
 
@@ -545,7 +486,7 @@ Contractually and technically prohibit:
 * AI/model training;
 * sale or reuse of biometric data.
 
-# F. Short retention and automatic deletion
+### F. Short retention and automatic deletion
 
 Implement automatic deletion when:
 
@@ -555,7 +496,7 @@ Implement automatic deletion when:
 
 Deletion must cover production systems and follow a documented backup-expiry process.
 
-# G. Strong access controls
+### G. Strong access controls
 
 Require:
 
@@ -566,7 +507,7 @@ Require:
 * periodic access reviews;
 * immediate revocation during off-boarding.
 
-# H. Vendor controls
+### H. Vendor controls
 
 Before contracting with a facial-recognition provider:
 
@@ -581,7 +522,7 @@ Before contracting with a facial-recognition provider:
 * require incident notification;
 * provide audit/evidence rights.
 
-# I. Accuracy and false-match controls
+### I. Accuracy and false-match controls
 
 The cafe must:
 
@@ -591,7 +532,7 @@ The cafe must:
 * never use facial recognition alone to approve payment;
 * provide a process to challenge incorrect identification.
 
-# J. Transparency
+### J. Transparency
 
 Prominent notices should tell people:
 
@@ -604,7 +545,7 @@ Prominent notices should tell people:
 * how to withdraw;
 * how to exercise POPIA rights.
 
-# 3.6 Residual Risk Assessment
+### 3.6 Residual Risk Assessment
 
 Even if all proposed mitigations are implemented, several risks cannot be fully eliminated:
 
@@ -621,16 +562,16 @@ The most important residual issue is that technical controls **do not solve the 
 
 A perfectly encrypted, perfectly access-controlled biometric database may still be an **unnecessary biometric database**.
 
-# 3.7 Phase 3 Decision
+### 3.7 Phase 3 Decision
 
-# Privacy assessment
+### Privacy assessment
 
 **Necessity:** ❌ **Not demonstrated**
 **Proportionality:** ❌ **Not demonstrated**
 **Less intrusive alternative available:** ✅ **Yes**
 **Risk can be materially reduced through alternative design:** ✅ **Yes**
 
-# Recommendation
+### Recommendation
 
 > **Do not approve the proposed CCTV/facial-recognition loyalty system in its current form.**
 
@@ -643,15 +584,15 @@ If management nevertheless wishes to proceed, implementation should remain **blo
 > **The question is not merely whether Fresh Brew Cafe *can secure* facial recognition. The more fundamental question is whether it needs facial recognition at all. For a loyalty programme, the current answer is no.**
 
 ## Phase 4: Documentation, Sign-off, and a Recommendation
-# Fresh Brew Café
-# Personal Information Impact Assessment (PIIA)
-# Facial-Recognition CCTV / Loyalty Programme Proposal
+### Fresh Brew Café
+### Personal Information Impact Assessment (PIIA)
+### Facial-Recognition CCTV / Loyalty Programme Proposal
 
 **Phase 4 — Documentation, Sign-off, and Recommendation**
 
-# 4.1 Final Recommendation
+### 4.1 Final Recommendation
 
-# Decision: **Do Not Proceed as Designed**
+### Decision: **Do Not Proceed as Designed**
 
 Based on the findings from Phases 1–3, the proposed facial-recognition CCTV/loyalty system should **not be approved in its current form**.
 
@@ -670,17 +611,17 @@ That objective can be achieved effectively through substantially less intrusive 
 
 The proposed system would instead introduce biometric processing, repeated facial identification, possible processing of non-members, vendor dependency, false-match risk, and potentially long-lived consequences if biometric information were compromised.
 
-# Recommended course of action
+### Recommended course of action
 
 > **Fresh Brew Cafe should abandon the facial-recognition element and implement a non-biometric loyalty-identification method instead.**
 
 This achieves the business objective while materially reducing privacy risk.
 
-# 4.2 Alternative Management Decision
+### 4.2 Alternative Management Decision
 
 If management believes there is a compelling reason to continue exploring facial recognition, the appropriate decision would be:
 
-# **Proceed with changes — but do not deploy yet**
+### **Proceed with changes — but do not deploy yet**
 
 Deployment must remain blocked until, at minimum:
 
@@ -700,39 +641,30 @@ Deployment must remain blocked until, at minimum:
 
 Completion of these controls would require an **updated PIIA before deployment**.
 
-# 4.3 Sign-off Requirements
+### 4.3 Sign-off Requirements
 
 The following roles should review and sign the final assessment:
 
 |**Role                                     | Responsibility                               | Required Action**
 ------------------------------------------: |---------------------------------------------:|--------------------------------------
 | **Information Officer**                   | POPIA oversight and PIIA accountability      | **Approve/reject privacy assessment**
-|                                           |                                              | **and confirm required actions** 
-_________________________________________________________________________________________________________________________________
-| **Cafe Owner**                            | Business accountability and risk acceptance  | **Approve the business decision**
-|                                           |                                              | **and any accepted residual risk**  
-_________________________________________________________________________________________________________________________________
-| **IT Contractor / Technical Lead**        | Technical design and safeguards              | Confirm architecture, security 
-|                                           |                                              | controls, deletion capability and
-|                                           |                                              | technical feasibility
-__________________________________________________________________________________________________________________________________
-| **Loyalty / Operations Owner**            | Business purpose and operational requirement | Confirm whether the business need 
-|                                           |                                              | can be met by less intrusive 
-|                                           |                                              | alternatives
-__________________________________________________________________________________________________________________________________
-| **Vendor representative, where selected** | Operator processing                          | Provide evidence on architecture,
-|                                           |                                              | security, subprocessors, retention
-|                                           |                                              | and deletion arrangements 
+
+|  |  | and confirm required actions |
+|---|---|---|
+| **Cafe Owner** | Business accountability and risk acceptance | **Approve the business decision and any accepted residual risk** |
+| **IT Contractor / Technical Lead** | Technical design and safeguards | Confirm architecture, security controls, deletion capability and technical feasibility |
+| **Loyalty / Operations Owner** | Business purpose and operational requirement | Confirm whether the business need can be met by less intrusive alternatives |
+| **Vendor representative, where selected** | Operator processing | Provide evidence on architecture, security, subprocessors, retention and deletion arrangements |
 
 Where specialist legal interpretation is required, particularly regarding biometric processing or contractual terms, the Information Officer should obtain appropriate legal advice before implementation.
 
-# Important governance rule
+### Important governance rule
 
 The **IT Contractor should not be the person who accepts the privacy risk**.
 
 Technical personnel can confirm whether controls work, but accountability for accepting residual privacy risk belongs with the appropriate business owner and Information Officer.
 
-# 4.4 Sign-off Record
+### 4.4 Sign-off Record
 
 | Role                | Name       | Decision                                         | Signature  | Date       |
 | ------------------- | ---------- | ------------------------------------------------ | ---------- | ---------- |
@@ -741,7 +673,7 @@ Technical personnel can confirm whether controls work, but accountability for ac
 | IT Contractor       | __________ | ☐ Technical controls confirmed ☐ Gaps remain     | __________ | __________ |
 | Operations Owner    | __________ | ☐ Business need confirmed ☐ Alternative selected | __________ | __________ |
 
-# Final decision
+### Final decision
 
 **Recommended:** ☒ **Do Not Proceed as Designed**
 
@@ -751,11 +683,11 @@ Technical personnel can confirm whether controls work, but accountability for ac
 
 **Preferred alternative:** Non-biometric loyalty identification.
 
-# 4.5 PIIA Review Requirements
+### 4.5 PIIA Review Requirements
 
 This PIIA must not be treated as a one-time document.
 
-# Mandatory review points
+### Mandatory review points
 
 The assessment should be reviewed:
 
@@ -770,13 +702,13 @@ The assessment should be reviewed:
 * when a significant control failure occurs;
 * when legal or regulatory requirements affecting the processing change.
 
-# Periodic review
+### Periodic review
 
 If facial recognition were ever approved and implemented, Fresh Brew Cafe should perform a **formal PIIA review at least annually**, with earlier reassessment whenever there is a material change.
 
 If the recommendation is followed and a conventional QR/card-based loyalty system is implemented instead, the cafe should record that decision and reassess the replacement processing if its scope later changes materially.
 
-# 4.6 Outstanding Actions
+### 4.6 Outstanding Actions
 
 | Action                                                            | Owner                   | Status   |
 | ----------------------------------------------------------------- | ----------------------- | -------- |
@@ -787,7 +719,7 @@ If the recommendation is followed and a conventional QR/card-based loyalty syste
 | Confirm access controls for loyalty system                        | IT Contractor           | **Open** |
 | Close facial-recognition proposal or document management override | Cafe Owner              | **Open** |
 
-# 4.7 Final PIIA Conclusion
+### 4.7 Final PIIA Conclusion
 
 The proposed facial-recognition loyalty initiative introduces significant privacy risks because it would process biometric information for a purpose that can be achieved through substantially less intrusive means.
 
