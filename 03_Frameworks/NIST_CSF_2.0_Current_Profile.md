@@ -8,93 +8,47 @@
 
 ## Subcategory area: Roles, Responsibilities and Authorities (Govern → GV.RR)
 
-**Field                     | Content**
-__________________________________________________________________________________________________________________________________
-**Outcome being assessed**  | Cybersecurity and access-control responsibilities are clearly assigned, communicated, and carried
-                            | out by authorised personnel. 
-__________________________________________________________________________________________________________________________________
-**Evidence**                | Off-boarding RACI matrix assigning duties to the Owner, Shift Manager, and IT Contractor; Compliance
-                            | Officer job description; Week 2 status scorecard showing named finding owners.
-__________________________________________________________________________________________________________________________________**Evidence method**         | Inspection of the documented RACI matrix, role responsibilities, and scorecard.
-__________________________________________________________________________________________________________________________________**Finding**                 | Roles and accountability are documented, including the Owner as Accountable for off-boarding. 
-                            | However, the 31-hour access-revocation exception shows that assigned responsibilities were not
-                            | followed consistently in practice.
-__________________________________________________________________________________________________________________________________
-**Rating**                  | **Partially Achieved** — governance responsibilities are defined, but available testing shows that 
-                            | execution and follow-up are not yet consistently effective. 
-__________________________________________________________________________________________________________________________________
-**Gap to Target**           | Require formal approval of the RACI, introduce a mandatory off-boarding checklist, require written 
-                            | completion confirmation from the IT Contractor, and periodically test whether assigned 
-                            | responsibilities are being performed. 
+| Field | Content |
+|---|---|
+| **Outcome being assessed** | Cybersecurity and access-control responsibilities are clearly assigned, communicated, and carried out by authorised personnel. |
+| **Evidence** | Off-boarding RACI matrix assigning duties to the Owner, Shift Manager, and IT Contractor; Compliance Officer job description; Week 2 status scorecard showing named finding owners. |
+| **Evidence method** | Inspection of the documented RACI matrix, role responsibilities, and scorecard. |
+| **Finding** | Roles and accountability are documented, including the Owner as Accountable for off-boarding. However, the 31-hour access-revocation exception shows that assigned responsibilities were not followed consistently in practice. |
+| **Rating** | **Partially Achieved** — governance responsibilities are defined, but available testing shows that execution and follow-up are not yet consistently effective. |
+| **Gap to Target** | Require formal approval of the RACI, introduce a mandatory off-boarding checklist, require written completion confirmation from the IT Contractor, and periodically test whether assigned responsibilities are being performed. |
 
 ## Subcategory area: Risk Assessment (Identify → ID.RA)
 
-**Field                     | Content**
-__________________________________________________________________________________________________________________________________
-**Outcome being assessed**  | Cybersecurity, operational, compliance, and safety risks are identified, analysed, prioritised, 
-                            | assigned to owners, and tracked.
-__________________________________________________________________________________________________________________________________
-**Evidence**                | Week 1 risk register containing risks such as R-003 off-boarding delay, R-004 POS password exposure,
-                            | R-001 WordPress vulnerability, and R-021 slip-and-fall risk; findings classification memo; 
-                            | remediation plans and scorecard.
-__________________________________________________________________________________________________________________________________
-**Evidence method**         | Inspection of the risk register, classification memo, remediation records, and status scorecard.
-__________________________________________________________________________________________________________________________________
-**Finding**                 | The café has identified and prioritised multiple risks using likelihood and impact reasoning, and 
-                            | some risks have assigned owners and remediation actions. Evidence is limited regarding a formally
-                            | approved review cadence and whether the full register is regularly updated when conditions change.
-__________________________________________________________________________________________________________________________________
-**Rating**                  | **Partially Achieved** — a functioning risk register and assessment process exist, but the evidence
-                            | does not yet show a consistently governed and recurring risk-review process.
-__________________________________________________________________________________________________________________________________**Gap to Target**           | Establish a documented quarterly risk-register review, record approval by the Owner, define when
-                            | risks must be reassessed, and maintain clear links between each risk, control, finding, and
-                            | remediation action.  
+| Field | Content |
+|---|---|
+| **Outcome being assessed** | Cybersecurity, operational, compliance, and safety risks are identified, analysed, prioritised, assigned to owners, and tracked. |
+| **Evidence** | Week 1 risk register containing risks such as R-003 off-boarding delay, R-004 POS password exposure, R-001 WordPress vulnerability, and R-021 slip-and-fall risk; findings classification memo; remediation plans and scorecard. |
+| **Evidence method** | Inspection of the risk register, classification memo, remediation records, and status scorecard. |
+| **Finding** | The café has identified and prioritised multiple risks using likelihood and impact reasoning, and some risks have assigned owners and remediation actions. Evidence is limited regarding a formally approved review cadence and whether the full register is regularly updated when conditions change. |
+| **Rating** | **Partially Achieved** — a functioning risk register and assessment process exist, but the evidence does not yet show a consistently governed and recurring risk-review process. |
+| **Gap to Target** | Establish a documented quarterly risk-register review, record approval by the Owner, define when risks must be reassessed, and maintain clear links between each risk, control, finding, and remediation action. |
 
 ## Subcategory area: Identity Management, Authentication and Access Control (Protect → PR.AA)
 
-**Field                     | Content**
-__________________________________________________________________________________________________________________________________
-**Outcome being assessed**  | Accounts requiring access to the POS system use unique identities and strong authentication, 
-                            | including MFA.
-__________________________________________________________________________________________________________________________________
-**Evidence**                | POS Authentication Standard; control-testing workpaper testing all 12 active POS accounts; POS administrator
-                            | user-list export showing MFA status.
-__________________________________________________________________________________________________________________________________
-**Evidence method**         | Inspection of the POS user-list export and authentication standard.
-__________________________________________________________________________________________________________________________________
-**Finding**                 | Nine of twelve active POS accounts had MFA enabled. Three accounts, including two recent users and 
-                            | one backup manager account, did not meet the standard at the time of testing.
-__________________________________________________________________________________________________________________________________
-**Rating**                  | **Partially Achieved** — a measurable standard exists and most accounts comply, but MFA is not 
-                            | consistently enforced across the full population.
-__________________________________________________________________________________________________________________________________
-**Gap to Target**           | Enable MFA on all remaining accounts and implement a system-level restriction preventing any POS
-                            | account from becoming active before MFA enrolment is completed and verified.
+| Field | Content |
+|---|---|
+| **Outcome being assessed** | Accounts requiring access to the POS system use unique identities and strong authentication, including MFA. |
+| **Evidence** | POS Authentication Standard; control-testing workpaper testing all 12 active POS accounts; POS administrator user-list export showing MFA status. |
+| **Evidence method** | Inspection of the POS user-list export and authentication standard. |
+| **Finding** | Nine of twelve active POS accounts had MFA enabled. Three accounts, including two recent users and one backup manager account, did not meet the standard at the time of testing. |
+| **Rating** | **Partially Achieved** — a measurable standard exists and most accounts comply, but MFA is not consistently enforced across the full population. |
+| **Gap to Target** | Enable MFA on all remaining accounts and implement a system-level restriction preventing any POS account from becoming active before MFA enrolment is completed and verified. |
 
 ## Subcategory area: Continuous Monitoring (Detect → DE.CM)
 
-**Field                     | Content**
-__________________________________________________________________________________________________________________________________
-**Outcome being assessed**  | The cafe monitors its POS, email, network, endpoint-security, and backup systems for suspicious
-                            | activity, control failures, and security alerts. 
-__________________________________________________________________________________________________________________________________
-**Evidence**                | Detect Target Profile statement recommending built-in alerts, weekly POS-log review, named alert
-                            | ownership, and an incident log. No completed monitoring logs, alert-review records, or tested
-                            | detection procedures were available. 
-__________________________________________________________________________________________________________________________________
-**Evidence method**         | Inspection of the Target Profile and portfolio artifacts for evidence that monitoring activities
-                            | had been implemented and  performed.
-__________________________________________________________________________________________________________________________________
-**Finding**                 | The desired monitoring approach has been documented, but there is no evidence that alerts are 
-                            | currently enabled, reviewed on a defined schedule, documented, or escalated. The artifact describes
-                            | a future state rather than an operating control.
-__________________________________________________________________________________________________________________________________
-**Rating**                  | **Not Achieved** — the intended outcome is recognised, but no reliable evidence shows that 
-                            | continuous monitoring currently  operates.
-__________________________________________________________________________________________________________________________________
-**Gap to Target**           | Enable affordable built-in alerts for failed logins, administrator changes, malware detections, 
-                            | unusual POS activity, and backup failures; assign a reviewer; document weekly reviews; maintain
-                            | an incident log; and test that alerts are received and investigated.
+| Field | Content |
+|---|---|
+| **Outcome being assessed** | The cafe monitors its POS, email, network, endpoint-security, and backup systems for suspicious activity, control failures, and security alerts. |
+| **Evidence** | Detect Target Profile statement recommending built-in alerts, weekly POS-log review, named alert ownership, and an incident log. No completed monitoring logs, alert-review records, or tested detection procedures were available. |
+| **Evidence method** | Inspection of the Target Profile and portfolio artifacts for evidence that monitoring activities had been implemented and performed. |
+| **Finding** | The desired monitoring approach has been documented, but there is no evidence that alerts are currently enabled, reviewed on a defined schedule, documented, or escalated. The artifact describes a future state rather than an operating control. |
+| **Rating** | **Not Achieved** — the intended outcome is recognised, but no reliable evidence shows that continuous monitoring currently operates. |
+| **Gap to Target** | Enable affordable built-in alerts for failed logins, administrator changes, malware detections, unusual POS activity, and backup failures; assign a reviewer; document weekly reviews; maintain an incident log; and test that alerts are received and investigated. |
 
 ## Risk Register Mapping Correction
 
