@@ -29,4 +29,4 @@ NIST CSF 2.0 · ISO/IEC 27001:2022 · CIS Controls v8 · NIST SP 800-61 Rev. 3 �
 - University of the People: Certificate in Network and Applied Security; Certificate in Data Science (2025)
 
 ## Contact
-donbingy@gmail.com · Kimberley, South Africa (UTC+2)
+m.opokuyeboah.cyber@gmail.com · [Portfolio site](https://mark-yeboah-opoku.vercel.app) · [LinkedIn](https://www.linkedin.com/in/mark-yeboah-opoku/) · Kimberley, South Africa (UTC+2)
