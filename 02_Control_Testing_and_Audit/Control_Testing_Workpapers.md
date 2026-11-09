@@ -42,6 +42,8 @@
 
 ## Severity Explanation for Management
 
+> *Scenario question: if testing had found 5 of 12 accounts without MFA (instead of the actual 3), how would the severity and response change?*
+
 (a) Finding that **5 of 12 POS accounts do not have MFA enabled** is significantly more serious than finding only two non-compliant accounts. Five accounts represent almost half (42%) of all active POS users, which suggests that the problem is not an isolated onboarding mistake but a broader failure in how the authentication control is being implemented and monitored. At 2 exceptions, temporary risk is tolerable while the fix happens; at 5, the exposure is large enough that we shouldn't wait even 48 hours — restrict access now, fix after."
 
 The risk is also greater because an attacker would have five separate accounts that could potentially be accessed using only a stolen, guessed, or shared password. Since the POS system processes payments and contains sensitive business information, one compromised account could be used to perform unauthorised transactions, issue improper refunds, change records, or disrupt cafe operations. The larger number of unprotected accounts increases both the likelihood of an incident and the difficulty of identifying which employee was responsible.
