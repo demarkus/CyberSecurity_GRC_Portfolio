@@ -35,7 +35,7 @@
 | **Outcome being assessed** | Accounts requiring access to the POS system use unique identities and strong authentication, including MFA. |
 | **Evidence** | POS Authentication Standard; control-testing workpaper testing all 12 active POS accounts; POS administrator user-list export showing MFA status. |
 | **Evidence method** | Inspection of the POS user-list export and authentication standard. |
-| **Finding** | Nine of twelve active POS accounts had MFA enabled. Three accounts, including two recent users and one backup manager account, did not meet the standard at the time of testing. |
+| **Finding** | Nine of twelve active POS accounts had MFA enabled. Three recently created cashier accounts did not meet the standard at the time of testing. |
 | **Rating** | **Partially Achieved** — a measurable standard exists and most accounts comply, but MFA is not consistently enforced across the full population. |
 | **Gap to Target** | Enable MFA on all remaining accounts and implement a system-level restriction preventing any POS account from becoming active before MFA enrolment is completed and verified. |
 
