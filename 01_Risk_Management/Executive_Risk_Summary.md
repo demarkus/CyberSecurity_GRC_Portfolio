@@ -1,8 +1,10 @@
 # FRESH BREW CAFÉ
 
-**SECURITY RISK SUMMARY**
+**OPERATIONAL & SECURITY RISK SUMMARY**
 
 *Mark Yeboah Opoku | 21 July 2026*
+
+*Cost estimates are indicative and shown in USD.*
 
 ## EXECUTIVE OVERVIEW
 
